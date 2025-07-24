@@ -1,222 +1,360 @@
 <x-app-layout>
-    <!-- AlpineJS -->
-    <script src="https://unpkg.com/alpinejs" defer></script>
-
-    <!-- Smooth Scroll -->
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-        [x-cloak] {
-            display: none !important;
-        }
-    </style>
-
-    <!-- Hero Banner -->
-    <div class="relative h-[400px] overflow-hidden" id="top">
-        <img src="{{ asset('storage/products/young-man-being-ill-hospital-bed.jpg') }}" alt="Medical Banner" class="absolute inset-0 w-full h-full object-cover">
-        <div class="relative h-full flex items-center bg-black bg-opacity-50">
-            <div class="max-w-7xl mx-auto px-4 w-full">
-                <h1 class="text-5xl font-bold text-white mb-2">Medical Technology</h1>
-            </div>
-        </div>
-    </div>
-
-    <!-- Navigation Tabs -->
-    <div class="bg-white border-b">
-        <div class="max-w-7xl mx-auto px-4">
-            <nav class="flex space-x-4 py-6 justify-center">
-                <a href="#about-section" class="px-4 py-2 rounded-md font-semibold transition bg-green-500 text-white hover:bg-green-600">
-                    About Us
-                </a>
-                <a href="#history-section" class="px-4 py-2 rounded-md font-semibold transition bg-white text-green-600 border border-green-500 hover:bg-green-50">
-                    Certificates and Facilities
-                </a>
-                <a href="#milestone-section" class="px-4 py-2 rounded-md font-semibold transition bg-white text-green-600 border border-green-500 hover:bg-green-50">
-                    Milestones
-                </a>
-            </nav>
-        </div>
-    </div>
-
-    <!-- About Us Section -->
-    <div id="about-section" class="py-12 bg-white">
-        <div class="max-w-7xl mx-auto px-4 space-y-8">
-            <h2 class="text-3xl font-bold text-gray-800">About Us</h2>
-            <p class="text-gray-700 leading-relaxed">
-                <span class="font-semibold text-green-800">CV. JAYAGIRY</span> is a company engaged in the medical equipment industry, medical support, and fabrication services, located at Jl. Siliwangi Kp. Padamelang RT. 007 RW. 003 Padaasih Village, Cisaat District, Sukabumi Regency. As a company in the industry sector, CV. JAYAGIRY is the best solution with excellent, reliable, and experienced human resources, resulting in high-quality, innovative products that are able to compete nationally and globally.
-            </p>
-            <img src="{{ asset('storage/products/company.png') }}" alt="Company Image" class="w-full rounded-lg shadow-lg">
-        </div>
-    </div>
-
-<!-- Certificates and Facilities Section -->
-<div id="history-section" class="py-12 bg-white">
-    <div class="max-w-7xl mx-auto px-4 space-y-10">
-        <h2 class="text-3xl font-bold text-gray-800 text-center">Certificates and Facilities</h2>
-
-        <!-- Grid of Images -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-            <!-- Item 1 - Full Cover -->
-            <div class="space-y-3 pb-4">
-                <img src="{{ asset('storage/products/Certificate1.jpg') }}" alt="Certificate 1"
-                     class="w-full h-full object-cover rounded-lg shadow-md">
-                <h3 class="text-xl font-bold text-gray-800 text-center">Sertifikat Merek</h3>
-            </div>
-
-            <!-- Item 2 - Full Cover -->
-            <div class="space-y-3 pb-4">
-                <img src="{{ asset('storage/products/certificate2.jpg') }}" alt="Sertifikat Kementrian"
-                     class="w-full h-full object-cover rounded-lg shadow-md">
-                <h3 class="text-xl font-bold text-gray-800 text-center">Sertifikat Kementrian Perindustrian</h3>
-            </div>
-
-            <!-- Item 3 - Contain (utuh) -->
-            <div class="space-y-3 pb-4">
-                <div class="bg-gray-100 h-64 flex items-center justify-center rounded-lg shadow-md">
-                    <img src="{{ asset('storage/products/LaserCNCPhotonTECH.jpg') }}" alt="Laser CNC"
-                         class="max-h-full max-w-full object-contain">
-                </div>
-                <h3 class="text-xl font-bold text-gray-800 text-center">Laser CNC PhotonTECH</h3>
-            </div>
-
-            <!-- Item 4 - Contain (utuh) -->
-            <div class="space-y-3 pb-4">
-                <div class="bg-gray-100 h-64 flex items-center justify-center rounded-lg shadow-md">
-                    <img src="{{ asset('storage/products/CNCPressBrakeBendingMachine.jpg') }}" alt="CNC Machine"
-                         class="max-h-full max-w-full object-contain">
-                </div>
-                <h3 class="text-xl font-bold text-gray-800 text-center">CNC Press Brake/Bending Machine</h3>
-            </div>
-                 <!-- Item 5 - Contain (utuh) -->
-            <div class="space-y-3 pb-4">
-                <div class="bg-gray-100 h-64 flex items-center justify-center rounded-lg shadow-md">
-                    <img src="{{ asset('storage/products/CompressoreHighPressure.jpg') }}" alt="Laser CNC"
-                         class="max-h-full max-w-full object-contain">
-                </div>
-                <h3 class="text-xl font-bold text-gray-800 text-center">Compressore High Pressure</h3>
-            </div>
-
-            <!-- Item 6 - Contain (utuh) -->
-            <div class="space-y-3 pb-4">
-                <div class="bg-gray-100 h-64 flex items-center justify-center rounded-lg shadow-md">
-                    <img src="{{ asset('storage/products/PowderCoating.jpg') }}" alt="CNC Machine"
-                         class="max-h-full max-w-full object-contain">
-                </div>
-                <h3 class="text-xl font-bold text-gray-800 text-center">Powder Coating</h3>
-            </div>
-                   <!-- Item 7 - Contain (utuh) -->
-            <div class="space-y-3 pb-4">
-                <div class="bg-gray-100 h-64 flex items-center justify-center rounded-lg shadow-md">
-                    <img src="{{ asset('storage/products/LatheMachine.png') }}" alt="Laser CNC"
-                         class="max-h-full max-w-full object-contain">
-                </div>
-                <h3 class="text-xl font-bold text-gray-800 text-center">Lathe Machine</h3>
-            </div>
-
-            <!-- Item 8 - Contain (utuh) -->
-            <div class="space-y-3 pb-4">
-                <div class="bg-gray-100 h-64 flex items-center justify-center rounded-lg shadow-md">
-                    <img src="{{ asset('storage/products/WeldingMachine.jpg') }}" alt="CNC Machine"
-                         class="max-h-full max-w-full object-contain">
-                </div>
-                <h3 class="text-xl font-bold text-gray-800 text-center">Welding Machine</h3>
-            </div>
-                   <!-- Item 9 - Contain (utuh) -->
-            <div class="space-y-3 pb-4">
-                <div class="bg-gray-100 h-64 flex items-center justify-center rounded-lg shadow-md">
-                    <img src="{{ asset('storage/products/CNCMilling.jpg') }}" alt="Laser CNC"
-                         class="max-h-full max-w-full object-contain">
-                </div>
-                <h3 class="text-xl font-bold text-gray-800 text-center">CNC Milling</h3>
-            </div>
-
-     
-        </div>
-    </div>
-</div>
-
-    <!-- Milestones Section -->
-    <div id="milestone-section" class="py-12 bg-white">
-        <div class="max-w-7xl mx-auto px-4 space-y-6">
-            <h2 class="text-3xl font-bold text-gray-800">Company Milestones</h2>
-            <img src="{{ asset('storage/products/milestone.png') }}" alt="Company Milestones Timeline" class="w-full rounded-lg shadow-md">
-        </div>
-    </div>
-
-
-    <!-- Contact Us Section -->
-    <div class="bg-white py-16">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-12">
-                <h2 class="text-4xl font-bold text-gray-800 mb-4">Get in Touch with Us</h2>
-                <p class="text-gray-600 text-lg max-w-2xl mx-auto">
-                    We're here to help! Contact us through any of these channels and we'll respond as soon as possible.
-                </p>
-            </div>
-
-            <div class="flex justify-center">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 w-full max-w-6xl">
-                    <!-- Card 1 -->
-                    <div class="bg-white p-10 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <div class="text-center mb-4">
-                            <div class="bg-green-50 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                                </svg>
-                            </div>
-                            <h3 class="text-2xl font-bold text-gray-800 mb-3">Contact Person</h3>
-                        </div>
-                        <div class="space-y-4 text-center">
-                            <a href="https://wa.me/628111114109" class="flex items-center justify-center space-x-2 p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-all duration-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M.057 24l1.687-6.163..."></path>
-                                </svg>
-                                <span class="font-medium text-green-500">Person 1 : +62 811-1114-109</span>
-                            </a>
-                            <a href="https://wa.me/6281355000854" class="flex items-center justify-center space-x-2 p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-all duration-300">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-green-500" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M.057 24l1.687-6.163..."></path>
-                                </svg>
-                                <span class="font-medium text-green-500">Person 2 : +62 813-5500-0854</span>
-                            </a>
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="relative bg-gradient-to-br from-green-50 via-white to-green-50 hero-pattern py-20 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center animate-fade-in-up">
+                    <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">
+                        Profile <span class="text-green-600">Katak Studio</span>
+                    </h1>
+                    <p class="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
+                        We are passionate landscape architects and garden designers dedicated to creating beautiful, sustainable outdoor spaces that harmonize with nature and enhance life.
+                    </p>
+                    <div class="flex justify-center space-x-4">
+                        <div class="w-16 h-16 bg-green-400 rounded-full flex items-center justify-center">
+                            <img src="storage/logo_kodok1.png" alt="Logo Katak Studio">
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <!-- Card 2 -->
-                    <div class="bg-white p-10 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                        <div class="text-center mb-4">
-                            <div class="bg-green-50 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
-                                </svg>
+        <!-- Company Overview -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div class="animate-fade-in-up">
+                        <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+                            Creating Natural Harmony Since 2019
+                        </h2>
+                        <p class="text-lg text-gray-600 mb-6">
+                            Katak Studio was founded with a simple yet profound vision: to bridge the gap between urban living and natural beauty. Our name "Katak" (frog in Indonesian) symbolizes our connection to both land and water, representing the balance we strive to achieve in every project.
+                        </p>
+                        <p class="text-lg text-gray-600 mb-8">
+                            We specialize in creating sustainable landscapes that not only beautify spaces but also support local ecosystems, promote biodiversity, and contribute to environmental wellness. Every project is a canvas where we paint with living elements.
+                        </p>
+                        <div class="grid grid-cols-2 gap-6">
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-green-600">150+</div>
+                                <div class="text-gray-600">Projects Completed</div>
                             </div>
-                            <h3 class="text-2xl font-bold text-gray-800 mb-3">Office Contact</h3>
+                            <div class="text-center">
+                                <div class="text-3xl font-bold text-green-600">5+</div>
+                                <div class="text-gray-600">Years of Excellence</div>
+                            </div>
                         </div>
-                        <div class="space-y-4 text-center">
-                            <div class="flex items-center justify-center space-x-2 p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-all duration-300">
-                                <a href="tel:" class="font-medium text-green-500">(0266) 2500130</a>
-                            </div>
-                            <div class="flex items-center justify-center space-x-2 p-4 bg-green-50 rounded-lg hover:bg-green-100 transition-all duration-300">
-                                <div class="font-medium text-green-500">
-                                    <a href="mailto:jg.alkes@gmail.com">jg.alkes@gmail.com</a>
-                                </div>
+                    </div>
+                    <div class="animate-fade-in-up">
+                        <div class="relative">
+                            <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                                 alt="Katak Studio Garden Design" 
+                                 class="rounded-xl shadow-2xl w-full h-96 object-cover">
+                            <div class="absolute -bottom-6 -right-6 w-24 h-24 bg-green-500 rounded-xl flex items-center justify-center shadow-lg">
+                                <span class="text-white text-3xl">🐸</span>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-            <!-- Sticky Back to Top Button -->
-        <div class="fixed bottom-6 right-6 z-50">
-            <a href="#about-section"
-                class="px-4 py-3 bg-green-600 text-white font-bold rounded-full shadow-lg hover:bg-green-700 transition">
-                ↑ Back to Top
-            </a>
-        </div>
-    </div>
+        </section>
 
+        <!-- Vision & Mission -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                        Our Vision & Mission
+                    </h2>
+                    <p class="text-xl text-gray-600">
+                        Guiding principles that shape everything we do
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <!-- Vision -->
+                    <div class="bg-white rounded-2xl p-8 shadow-lg card-hover">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            To be Indonesia's leading landscape design studio, recognized for creating innovative, sustainable, and culturally-rooted outdoor spaces that inspire connection with nature and enhance quality of life for communities across the archipelago.
+                        </p>
+                    </div>
+
+                    <!-- Mission -->
+                    <div class="bg-white rounded-2xl p-8 shadow-lg card-hover">
+                        <div class="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                            <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path>
+                            </svg>
+                        </div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            We design and create exceptional landscapes using native plants, sustainable practices, and innovative techniques. We collaborate closely with clients to transform their vision into reality while promoting environmental stewardship and biodiversity conservation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Values -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                        Our Core Values
+                    </h2>
+                    <p class="text-xl text-gray-600">
+                        The principles that guide our work and relationships
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Sustainability -->
+                    <div class="text-center card-hover bg-green-50 rounded-xl p-6">
+                        <div class="w-16 h-16 bg-green-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white text-2xl">🌍</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Sustainability</h3>
+                        <p class="text-gray-600">
+                            We prioritize eco-friendly practices, native plants, and resource conservation to create landscapes that support the environment.
+                        </p>
+                    </div>
+
+                    <!-- Innovation -->
+                    <div class="text-center card-hover bg-blue-50 rounded-xl p-6">
+                        <div class="w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white text-2xl">💡</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Innovation</h3>
+                        <p class="text-gray-600">
+                            We embrace new technologies and creative solutions to push the boundaries of landscape design.
+                        </p>
+                    </div>
+
+                    <!-- Quality -->
+                    <div class="text-center card-hover bg-purple-50 rounded-xl p-6">
+                        <div class="w-16 h-16 bg-purple-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white text-2xl">⭐</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Quality</h3>
+                        <p class="text-gray-600">
+                            We maintain the highest standards in design, materials, and craftsmanship in every project we undertake.
+                        </p>
+                    </div>
+
+                    <!-- Collaboration -->
+                    <div class="text-center card-hover bg-orange-50 rounded-xl p-6">
+                        <div class="w-16 h-16 bg-orange-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <span class="text-white text-2xl">🤝</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Collaboration</h3>
+                        <p class="text-gray-600">
+                            We work closely with clients, communities, and partners to ensure every project meets unique needs and expectations.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Timeline -->
+        <section class="py-16 bg-gray-50">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                        Our Journey
+                    </h2>
+                    <p class="text-xl text-gray-600">
+                        Key milestones in our growth and development
+                    </p>
+                </div>
+
+                <div class="relative">
+                    <div class="timeline-item">
+                        <div class="bg-white rounded-lg p-6 shadow-lg">
+                            <div class="flex items-center mb-2">
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">2019</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Company Founded</h3>
+                            <p class="text-gray-600">Katak Studio was established in Bogor with a small team of passionate landscape designers.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="bg-white rounded-lg p-6 shadow-lg">
+                            <div class="flex items-center mb-2">
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">2020</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">First Major Project</h3>
+                            <p class="text-gray-600">Completed our first large-scale residential landscape project, setting new standards for sustainable design.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="bg-white rounded-lg p-6 shadow-lg">
+                            <div class="flex items-center mb-2">
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">2021</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Team Expansion</h3>
+                            <p class="text-gray-600">Grew our team to include specialists in botany, horticulture, and environmental design.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="bg-white rounded-lg p-6 shadow-lg">
+                            <div class="flex items-center mb-2">
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">2022</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Award Recognition</h3>
+                            <p class="text-gray-600">Received the "Best Sustainable Landscape Design" award from Indonesian Architecture Association.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="bg-white rounded-lg p-6 shadow-lg">
+                            <div class="flex items-center mb-2">
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">2023</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">100+ Projects Milestone</h3>
+                            <p class="text-gray-600">Celebrated completing over 100 successful projects across Java and expanding to other islands.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="bg-white rounded-lg p-6 shadow-lg">
+                            <div class="flex items-center mb-2">
+                                <span class="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">2024</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-900 mb-2">Innovation Lab</h3>
+                            <p class="text-gray-600">Launched our Innovation Lab focusing on smart irrigation systems and climate-adaptive landscaping.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section class="py-16 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                        Meet Our Team
+                    </h2>
+                    <p class="text-xl text-gray-600">
+                        The creative minds behind every beautiful landscape
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Team Member 1 -->
+                    <div class="text-center card-hover">
+                        <div class="relative mb-6">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                                 alt="Andi Wijaya" 
+                                 class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
+                            <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
+                                <span class="text-white text-sm">🎨</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Andi Wijaya</h3>
+                        <p class="text-green-600 font-medium mb-3">Founder & Lead Designer</p>
+                        <p class="text-gray-600 text-sm">
+                            With 10+ years in landscape architecture, Andi brings vision and expertise to every project, specializing in sustainable tropical gardens.
+                        </p>
+                    </div>
+
+                    <!-- Team Member 2 -->
+                    <div class="text-center card-hover">
+                        <div class="relative mb-6">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b72c6abe?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                                 alt="Sari Indah" 
+                                 class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
+                            <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
+                                <span class="text-white text-sm">🌱</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Sari Indah</h3>
+                        <p class="text-green-600 font-medium mb-3">Head of Horticulture</p>
+                        <p class="text-gray-600 text-sm">
+                            Plant specialist with deep knowledge of Indonesian flora, ensuring every garden thrives in local climate conditions.
+                        </p>
+                    </div>
+
+                    <!-- Team Member 3 -->
+                    <div class="text-center card-hover">
+                        <div class="relative mb-6">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                                 alt="Budi Santoso" 
+                                 class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
+                            <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center">
+                                <span class="text-white text-sm">🔧</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Budi Santoso</h3>
+                        <p class="text-green-600 font-medium mb-3">Project Manager</p>
+                        <p class="text-gray-600 text-sm">
+                            Ensures seamless project execution from concept to completion, coordinating teams and maintaining quality standards.
+                        </p>
+                    </div>
+
+                    <!-- Team Member 4 -->
+                    <div class="text-center card-hover">
+                        <div class="relative mb-6">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                                 alt="Maya Putri" 
+                                 class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
+                            <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center">
+                                <span class="text-white text-sm">🎯</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Maya Putri</h3>
+                        <p class="text-green-600 font-medium mb-3">Design Consultant</p>
+                        <p class="text-gray-600 text-sm">
+                            Creative designer specializing in residential gardens and urban green spaces with focus on client collaboration.
+                        </p>
+                    </div>
+
+                    <!-- Team Member 5 -->
+                    <div class="text-center card-hover">
+                        <div class="relative mb-6">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                                 alt="Rizki Rahman" 
+                                 class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
+                            <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center">
+                                <span class="text-white text-sm">⚡</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Rizki Rahman</h3>
+                        <p class="text-green-600 font-medium mb-3">Sustainability Expert</p>
+                        <p class="text-gray-600 text-sm">
+                            Environmental engineer focused on water management, renewable energy integration, and ecological balance.
+                        </p>
+                    </div>
+
+                    <!-- Team Member 6 -->
+                    <div class="text-center card-hover">
+                        <div class="relative mb-6">
+                            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                                 alt="Lina Kusuma" 
+                                 class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
+                            <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-indigo-500 rounded-full flex items-center justify-center">
+                                <span class="text-white text-sm">📋</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Lina Kusuma</h3>
+                        <p class="text-green-600 font-medium mb-3">Operations Director</p>
+                        <p class="text-gray-600 text-sm">
+                            Oversees daily operations, client relationships, and business development with focus on service excellence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 </x-app-layout>
 @include('layouts.footer')
