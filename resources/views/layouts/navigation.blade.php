@@ -58,13 +58,13 @@
             <!-- Logo -->
             <div class="shrink-0 flex items-center space-x-2">
                 <a href="/" class="flex items-center">
-                    <img src="{{ asset('storage/products/logo 2.png') }}" alt="Logo" class="h-8 transition-opacity duration-300">
+                    <img src="{{ asset('storage/logo_kodok1.png') }}" alt="Logo" class="h-8 transition-opacity duration-300">
                     <span class="ml-2 text-lg font-bold text-gray-900 md:text-lg"
                           :class="{
                                 'text-gray-900': scrolled || !isHome,
                                 'text-white': !scrolled && isHome
                             }">
-                        <span class="hidden md:inline">CV JAYA GIRY</span>
+                        <span class="hidden md:inline">KATAKANS STUDIO</span>
                         <span class="md:hidden">JG</span>
                     </span>
                 </a>
