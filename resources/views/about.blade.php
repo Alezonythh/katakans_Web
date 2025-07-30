@@ -50,9 +50,6 @@
                             <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                                  alt="Katak Studio Garden Design" 
                                  class="rounded-xl shadow-2xl w-full h-96 object-cover">
-                            <div class="absolute -bottom-6 -right-6 w-24 h-24 bg-green-500 rounded-xl flex items-center justify-center shadow-lg">
-                                <span class="text-white text-3xl">🐸</span>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -254,14 +251,14 @@
                     <!-- Team Member 1 -->
                     <div class="text-center card-hover">
                         <div class="relative mb-6">
-                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                            <img src="https://lh4.googleusercontent.com/cuNKTR-WbEvUOfOAYgpELThqTQo8lqaPYRrfSwubSWSJGAMg0pqAMnXFDVgk7_xNIR3vOVr2U0h5vz6Qsf8BY1kMUPL83pLsCCQDxQQ80E1w4PbuCpUgbc2UvWaLLWN6EYXNuW577JnKNq9213iPm_bzlsT_Dlm1aEvyF37fneM5RAJ2ZKgK=w1280  " 
                                  alt="Andi Wijaya" 
                                  class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
                             <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-green-500 rounded-full flex items-center justify-center">
                                 <span class="text-white text-sm">🎨</span>
                             </div>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Andi Wijaya</h3>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Athala Assyarif Sanhapy</h3>
                         <p class="text-green-600 font-medium mb-3">Founder & Lead Designer</p>
                         <p class="text-gray-600 text-sm">
                             With 10+ years in landscape architecture, Andi brings vision and expertise to every project, specializing in sustainable tropical gardens.
@@ -271,14 +268,14 @@
                     <!-- Team Member 2 -->
                     <div class="text-center card-hover">
                         <div class="relative mb-6">
-                            <img src="https://images.unsplash.com/photo-1494790108755-2616b72c6abe?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                            <img src="https://lh3.googleusercontent.com/BXTgVa3qHbaTmcaIgnIGCR7RsJl9h7hLCs2T9_f8wxUSeUHvMMyCUfhep7QZo0CulXeCunCcpi4KRk3Jo_bNhRXM7oOo6ZyxfCBHw3DQdsu6mgKMOFXQmLCnXsPy3AhDaBc0JNxyyGpE_EsNkufFmK3mG53UQbaEkqrwBuyLBFR2yc_S2CfKdQ=w1280" 
                                  alt="Sari Indah" 
                                  class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
                             <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-blue-500 rounded-full flex items-center justify-center">
                                 <span class="text-white text-sm">🌱</span>
                             </div>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Sari Indah</h3>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Galang Sandyawan Samudra</h3>
                         <p class="text-green-600 font-medium mb-3">Head of Horticulture</p>
                         <p class="text-gray-600 text-sm">
                             Plant specialist with deep knowledge of Indonesian flora, ensuring every garden thrives in local climate conditions.
@@ -288,14 +285,14 @@
                     <!-- Team Member 3 -->
                     <div class="text-center card-hover">
                         <div class="relative mb-6">
-                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                            <img src="https://lh3.googleusercontent.com/V6F9H8-IX5dbLacaKt1xkAD_xDlpb1H-zYhLbaS0xw0HIjwiveG_R3lxIpxgBlkTk_oKCnoLrOzObFsA8bXRrKUWDIk2lL_O4TYB1wTpkugfpeXAWGJlOLH-ubegxDpmHwQnTDXmK8HA1KchTuWmEW6aAupKSaGdxr_hiv60L_zX0tmGb5cSJg=w1280" 
                                  alt="Budi Santoso" 
                                  class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
                             <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-purple-500 rounded-full flex items-center justify-center">
                                 <span class="text-white text-sm">🔧</span>
                             </div>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Budi Santoso</h3>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Muhammad Haikal Al Fatih</h3>
                         <p class="text-green-600 font-medium mb-3">Project Manager</p>
                         <p class="text-gray-600 text-sm">
                             Ensures seamless project execution from concept to completion, coordinating teams and maintaining quality standards.
@@ -305,14 +302,14 @@
                     <!-- Team Member 4 -->
                     <div class="text-center card-hover">
                         <div class="relative mb-6">
-                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                            <img src="https://lh4.googleusercontent.com/cJP-XAmyIDfPHkneljrwPFuQioj2VnAOHqrT-TRqvLscYhWhc5WfHrogasLzxEigvsS4MhLyZNEzecZCgcvTYsEKQ-7a4IGppbLbhwf4S9N0tdpgei7vkaD8hJdFGuD_WQU9-lpO--qTKfJU48vPqzzCJWxIWwrx-myjVcYx97RmwazUEoy0iQ=w1280" 
                                  alt="Maya Putri" 
                                  class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
                             <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-pink-500 rounded-full flex items-center justify-center">
                                 <span class="text-white text-sm">🎯</span>
                             </div>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Maya Putri</h3>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Luth Randal Sumantri</h3>
                         <p class="text-green-600 font-medium mb-3">Design Consultant</p>
                         <p class="text-gray-600 text-sm">
                             Creative designer specializing in residential gardens and urban green spaces with focus on client collaboration.
@@ -322,14 +319,14 @@
                     <!-- Team Member 5 -->
                     <div class="text-center card-hover">
                         <div class="relative mb-6">
-                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                            <img src="https://lh6.googleusercontent.com/nb5RUrx8-VIvql-px853Yh9s-LoS7Pe5OzIwfkMQJA6B2mn6LadTdkhvL431J7sShopnN4y4TOz8GaML8BWnE1eVQPRPGUniUH_FWI_gef8mdLZHVdBX8YSDGSuwtQJNIplMDe8WkFlHiq1EdBjXLAn9zYl4tf1OpTbswWF14nJLDNdrbrSdSw=w1280" 
                                  alt="Rizki Rahman" 
                                  class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
                             <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-teal-500 rounded-full flex items-center justify-center">
                                 <span class="text-white text-sm">⚡</span>
                             </div>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Rizki Rahman</h3>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Keisha Rizqillah</h3>
                         <p class="text-green-600 font-medium mb-3">Sustainability Expert</p>
                         <p class="text-gray-600 text-sm">
                             Environmental engineer focused on water management, renewable energy integration, and ecological balance.
@@ -339,14 +336,31 @@
                     <!-- Team Member 6 -->
                     <div class="text-center card-hover">
                         <div class="relative mb-6">
-                            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80" 
+                            <img src="https://lh5.googleusercontent.com/No39u769lVZvZ6qrYr9c_2M59uw2uSvBPFgWjNM3LJhAu242OjMyQX7crb-q32nrInd7Sj0J-vn2GrUf-mpymUH7Joo_qe9uZ3xU1A8-k_V1FVfeHSVt01xU_Wc9uw0uTc0t_STYfg7D0wg4TEmSsAFi8u7gHWaI0CkogaZZ8duFala2P8pd9A=w1280" 
                                  alt="Lina Kusuma" 
                                  class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
                             <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-indigo-500 rounded-full flex items-center justify-center">
                                 <span class="text-white text-sm">📋</span>
                             </div>
                         </div>
-                        <h3 class="text-xl font-bold text-gray-900 mb-2">Lina Kusuma</h3>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Kayla Sabrina Kurniawan</h3>
+                        <p class="text-green-600 font-medium mb-3">Operations Director</p>
+                        <p class="text-gray-600 text-sm">
+                            Oversees daily operations, client relationships, and business development with focus on service excellence.
+                        </p>
+                    </div>
+
+                    <!-- Team Member 7 -->
+                    <div class="text-center card-hover">
+                        <div class="relative mb-6">
+                            <img src="https://lh5.googleusercontent.com/No39u769lVZvZ6qrYr9c_2M59uw2uSvBPFgWjNM3LJhAu242OjMyQX7crb-q32nrInd7Sj0J-vn2GrUf-mpymUH7Joo_qe9uZ3xU1A8-k_V1FVfeHSVt01xU_Wc9uw0uTc0t_STYfg7D0wg4TEmSsAFi8u7gHWaI0CkogaZZ8duFala2P8pd9A=w1280" 
+                                 alt="Lina Kusuma" 
+                                 class="w-48 h-48 rounded-full mx-auto object-cover shadow-lg">
+                            <div class="absolute bottom-2 right-1/2 transform translate-x-12 w-12 h-12 bg-indigo-500 rounded-full flex items-center justify-center">
+                                <span class="text-white text-sm">📋</span>
+                            </div>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">Kayla Sabrina Kurniawan</h3>
                         <p class="text-green-600 font-medium mb-3">Operations Director</p>
                         <p class="text-gray-600 text-sm">
                             Oversees daily operations, client relationships, and business development with focus on service excellence.
