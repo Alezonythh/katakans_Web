@@ -58,7 +58,7 @@
             <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:w-6/12">
               <div class="flex items-start">
                 <div class="shrink-0">
-                  <div class="inline-block rounded-md bg-sky-200 p-4 text-primary">
+                  <div class="inline-block rounded-md bg-green-200 p-4 text-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                       stroke="currentColor" class="h-6 w-6">
                       <path stroke-linecap="round" stroke-linejoin="round"
@@ -82,7 +82,7 @@
             <div class="mb-12 w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:w-6/12">
               <div class="flex items-start">
                 <div class="srink-0">
-                  <div class="inline-block rounded-md bg-sky-200 p-4 text-primary">
+                  <div class="inline-block rounded-md bg-green-200 p-4 text-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
                       stroke="currentColor" class="w-7 h-7">
                       <path stroke-linecap="round" stroke-linejoin="round"
@@ -105,7 +105,7 @@
               class="mb-12 w-full shrink-0 grow-0 basis-auto md:mb-0 md:w-6/12 md:px-3 lg:mb-12 lg:w-full lg:px-6 xl:w-6/12">
               <div class="align-start flex">
                 <div class="shrink-0">
-                  <div class="inline-block rounded-md bg-sky-200 p-4 text-primary">
+                  <div class="inline-block rounded-md bg-green-200 p-4 text-primary">
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
                       xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" class="w-7 h-7"
                       viewBox="0 0 111.756 122.879" enable-background="new 0 0 111.756 122.879" xml:space="preserve">
@@ -127,7 +127,7 @@
             <div class="w-full shrink-0 grow-0 basis-auto md:w-6/12 md:px-3 lg:w-full lg:px-6 xl:mb-12 xl:w-6/12">
               <div class="align-start flex">
                 <div class="shrink-0">
-                  <div class="inline-block rounded-md bg-sky-200 p-4 text-primary">
+                  <div class="inline-block rounded-md bg-green-200 p-4 text-primary">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                       stroke="currentColor" class="w-6 h-6">
                       <path stroke-linecap="round" stroke-linejoin="round"
